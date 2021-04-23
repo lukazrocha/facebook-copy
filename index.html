@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <head>
+        <title>Login Facebook</title>
+        <meta charset="UTF-8" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+        <header>
+            <div class="center">
+                <div class="logo">
+                    <h2><strong>facebook</strong></h2>
+                </div><!--logo-->
+
+                <form method="POST" class="form-login">
+                    <div class="form-element">
+                        <p><strong>Email ou telefone</strong></p>
+                        <input type="text" name="email" />
+                    </div><!--form-element-->
+                    <div class="form-element">
+                        <p><strong>Senha</strong></p>
+                        <input type="password" name="password"/>
+                    </div><!--form-element-->
+                    <div class="form-element">
+                        <input type="submit" name="login-button" value="Entrar" />
+                    </div><!--form-element-->
+                    <div class="forgotten-password"><a href="#">Esqueceu sua conta?</a></div>                 
+                </form><!--form-login-->
+                <div class="clear"></div>
+            </div><!--center-->
+        </header>
+
+        <section class="main">
+            <div class="center">
+                    <div class="section-left">
+                        <strong>
+                            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+                        </strong>                    
+                        <div class="img-people">
+                            <!-- <img src="" alt="imagempessoasfacebook" /> -->
+                        </div><!--img-people-->
+                    </div>
+
+                <div class="sign-up">
+                    <h1>Abra uma conta</h1>
+                    <h6>É gratuito e sempre será.</h6>
+                    <form class="sign-up-form">
+                        <div class="w50">
+                            <input type="text" name="name" placeholder="Nome" />
+                        </div><!--w50-->
+
+                        <div class="w50">
+                            <input type="text" name="last-name" placeholder="Sobrenome" />
+                        </div><!--w50-->
+                        
+                        <div class="w100">
+                            <input type="email" name="" placeholder="Celular ou email" />
+                        </div><!--w100-->
+
+                        <div class="w100">
+                            <input type="password" name="password" placeholder="Nova Senha" />
+                        </div><!--w100-->
+                        
+                        <div class="w100">
+                            <label for="birth-date">Data de nascimento</label>
+                            <select type="" ></select>
+                        </div>
+
+                        <div class="w100-group">
+                            <!-- <label for="gender">Gênero</label><br/> -->
+                            Masculino <input type="radio" name="gender" value="Masculino" />
+                            Feminino <input type="radio" name="gender" value="Feminino" /> 
+                            Não-binárie <input type="radio" name="gender" value="Não-binarie" />
+                        </div>
+
+                        <div class="w100">
+                            <input type="submit" name="action" value="Cadastrar" />
+                        </div>                        
+                    </form><!--sign-up-->
+                </div><!--sign-up-->
+                <div class="clear"></div>
+            </div><!--center-->
+        </section><!--main-->
+
+    </body>
+</html>
